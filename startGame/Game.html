@@ -1,0 +1,380 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>whodidit</title>
+  <link href="game.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <script src="game.js"></script>
+  <script src="gameThree.js"></script>
+  <script src="changeTwenty.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+</body>
+
+</html>
+
+<img id="imgTwo" class="imagestyle" src="/Images/Untitled_Artwork 7.png">
+
+<img id="imgThree" class="imagestyle" src="/Images/Untitled_Artwork 8.png" style="display:none">
+
+<img id="imgFour" class="imagestyle" src="/Images/Untitled_Artwork 9.png" style="display:none">
+<button onclick="sceneTwoChange()" id="btnOne" class="buttonStyleNarrator">It's 2:27 AM when you wake up to a
+  scream...</button>
+
+<button id="btnTwo" onclick="sceneThreeChange()" class="buttonStyleTwoNarrator" style="display:none">You're in a private
+  room on a yacht that you're sharing with your six best friends... </button>
+
+<button onclick="sceneFourChange()" id="btnThree" class="buttonStyleChoice" style="display:none">Investigate The Noise
+</button>
+
+
+<img style="display:none" id="imgFive" class="imageStyle" src="/Images/Untitled_Artwork 12.png">
+
+<img style="display:none" id="imgSix" class="imageStyle" src="/Images/Untitled_Artwork 2.jpeg">
+
+<img style="display:none" id="imgSeven" class="imageStyle" src="/Images/Untitled_Artwork.jpeg">
+
+<button onclick="sceneFiveChange()" id="btnFour" class="buttonStyle" style="display:none">You: <br>Jules why- how?! Is
+  Olivia dead?! How... How did this happen? </button>
+
+
+<button onclick="sceneSixChange()" id="btnFive" class="buttonStyleMCTwo" style="display:none">She left our room in the
+  middle of the night. Last I heard, she was talking to Jake... </button>
+
+<button id="btnSix" class="buttonStyleMCThree" style="display:none">I don’t know how this happened!</button>
+
+
+<button onclick="sceneEightChange()" id="btnSeven" class="buttonStyleChoiceTwo" style="display:none">Repeat what Jules
+  said</button>
+
+<button onclick="sceneNineChange()" id="btnEight" class="buttonStyleChoiceTwo" style="display:none">Look for
+  Jake</button>
+
+<!-- Look for Jake -->
+
+<img style="display:none" id="imgEight" class="imageStyle" src="/Images/Untitled_Artwork 4.jpeg">
+<img style="display:none" id="imgNine" class="imageStyle" src="/Images/Untitled_Artwork 5.jpeg">
+<img style="display:none" id="imgTen" class="imageStyle" src="/Images/Untitled_Artwork 7.jpeg">
+
+
+<button id="btnNine" class="buttonStyleTwo" style="display:none">Who'd be running through the hallways at a time like
+  this... </button>
+
+<button onclick="sceneTenChangeChoiceOne()" id="btnTen" class="buttonStyleChoiceTwo" style="display:none">Look For Jake </button>
+
+<button onclick="sceneTenChange()" id="btnEleven" class="buttonStyleChoiceTwo" style="display:none">Follow them
+</button>
+
+
+
+<img style="display:none" id="imgEleven" class="imageStyle" src="/Images/Shadows.jpeg">
+<img style="display:none" id="imgTwelve" class="imageStyle" src="/Images/eliandterrance.jpeg">
+<img style="display:none" id="terranceImage" class="imageStyle" src="/Images/terrancetalking.jpeg">
+<img style="display:none" id="eliImage" class="imageStyle" src="/Images/elitalking.jpeg">
+<img style="display:none" id="eliAlone" class="imageStyle" src="/Images/elialone.jpeg">
+<img style="display:none" id="eliAloneTalking" class="imageStyle" src="/Images/eliAloneTalking.jpeg">
+<img style="display:none" id="imgThirteen" class="imageStyle" src="/Images/Eli_Highlighted.jpeg">
+<img style="display:none" id="imgFourteen" class="imageStyle" src="/Images/Eli_Red.jpeg">
+<img style="display:none" id="sweaterOff" class="imageStyle" src="/Images/sweaterOff.png">
+<img style="display:none" id="eliWithBlood" class="imageStyle" src="/Images/eliWithBlood.jpeg">
+<img style="display:none" id="eliWithBloodTalking" class="imageStyle" src="/Images/eliWithBloodTalking.jpeg">
+<img style="display:none" id="imgFifthteen" class="imageStyle" src="/Images/Eli_Knife.jpeg">
+<img style="display:none" id="imgSixteen" class="imageStyle" src="/Images/Eli_Kill.jpeg">
+<img style="display:none" id="animatedEliKill" class="imageStyle" src="/Images/animatedEliKill.png">
+<img style="display:none" id="imgPhone" class="imageStyle" src="/Images/image (1) copy.jpg">
+<img style="display:none" id="imgPhoneAnswer" class="imageStyle" src="/Images/phoneAnswer.jpg">
+
+
+
+<button onclick="sceneTenHalves()" id="btnTwelve" class="buttonStyleTerTwo" style="display:none">???<br>Did you hear
+  that scream? It shook me awake! </button>
+
+<button onclick="sceneTenHalvesTwo()" id="btnThirteen" class="buttonStyleEli" style="display:none">???<br>Yeah!
+  Honestly, I was having a crazy dream and it dragged me right out of it. Is that what brought you here?</button>
+
+<button onclick="sceneTenHalvesThree()" id="btnFourteen" class="buttonStyleTer" style="display:none">???<br>You know
+  that I always come to you when I’m scared! Haha.</button>
+
+<button onclick="sceneElevenChange()" id="btnFifthteen" class="buttonStyleEli" style="display:none">???<br>Bestfriends
+  always have each others backs! But I do wonder what the scream could’ve been...We should probably check it
+  out.</button>
+
+
+<button onclick="sceneTwelveChoiceOne()" id="btnSixteen" class="buttonStyleChoiceTwo" style="display:none;">Walk in the
+  room</button>
+
+<button onclick="sceneTwelveChoiceTwo()" id="btnSeventeen" class="buttonStyleChoiceTwo" style="display:none;">Look for
+  Jake</button>
+
+
+
+<!-- Walk in the room -->
+
+<button onclick="sceneThirteenChange()" id="btnEighteen" class="buttonStyleThree" style="display:none;">Don’t worry
+  about that. I checked on the scream it was just Jules being a bit dramatic haha!</button>
+
+<button onclick="sceneFourteenChange()" id="btnNineteen" class="buttonStyleEliFade" style="display:none;">(E)Sounded a bit
+  too high pitched for Jules...</button>
+
+<button onclick="sceneFifthteenChange()" id="btnTwenty" class="buttonStyleTerTwoTalk" style="display:none;">(T)Well...
+  She's been crying a lot since it's her birthday and all or as she likes to say "I'm getting closer and closer to my
+  death!" Pft... We love her.</button>
+
+<button onclick="sceneSixteenChange()" id="btnTwentyOne" class="buttonStyleThree" style="display:none;">We do. We do.
+  But anyways, have you guys seen Jake anywhere lately?</button>
+
+<button onclick="sceneSeventeenChange()" id="btnTwentyTwo" class="buttonStyleTerTwoTalk" style="display:none;">(T)Actually,
+  I was looking for him but I haven’t seen him on the ship since yesterday. He was supposed to be preparing Jules'
+  surprise birthday party. But I can’t find him at all!</button>
+
+
+<button onclick="sceneEighteenChange()" id="btnTwentyThree" class="buttonStyleEliFadeTalk" style="display:none;">(E)Oh
+  that’s worrying. I noticed that Jake has been looking a bit distraught since we came. But I have no idea why.</button>
+
+<button onclick="sceneNineteenChange()" id="btnTwentyFour" class="buttonStyleEliFadeTalk" style="display:none;">You guys
+  go ahead and check up on Jake. I'll look for the birthday girl to see what's up!</button>
+
+
+<button id="btnTwentyFive" class="buttonStyleTerTwo" style="display:none;">You want to come with me to look for
+  Jake?</button>
+
+
+
+<button onclick="sceneNineteenChoiceOne()" id="btnTwentySix" class="buttonStyleChoiceTwo" style="display:none;">Tell Eli
+  what you saw</button>
+
+<button onclick="goWithTerrance()" id="btnTwentySeven" class="buttonStyleChoiceTwo" style="display:none;">Go with Terrance</button>
+
+
+<button onclick="changeTwenty()" id="btnTwentyEight" class="buttonStyleThreeFade" style="display:none;">I'll meet up with you later. I have to talk to Eli for a second.</button>
+
+<button onclick="switchJewNi()" id="btnTwentyNine" class="buttonStyleTerTwoTalk" style="display:none;">Alright!</button>
+
+<button onclick="switchJewSan()" id="bttnThirty" class="buttonStyleEliFade" style="display:none;">What's up?</button>
+
+<button onclick="switchJewYon()" id="btnThirtyOne" class="buttonStyleThree" style="display:none;">Okay so I lied a bit, it wasn’t actually Jules being dramatic…</button>
+
+<button onclick="switchJewGo()" id="btnThirtyTwo" class="buttonStyleThree" style="display:none;">Eli...Olivia is dead.</button>
+
+<button onclick="switchJewRoku()" id="btnThirtyThree" class="buttonStyleEliFade" style="display:none;">What?!</button>
+
+<button onclick="switchJewNana()" id="btnThirtyFour" class="buttonStyleThree" style="display:none;">I followed the sound where the scream came from then Jules and I walked in on her dead body!</button>
+
+<button onclick="switchJewHatchi()" id="btnThirtyFive" class="buttonStyleThree" style="display:none;">Honestly, I think it had something to do with Jake cause he was last scene with Olivia last nig-</button>
+
+<button onclick="()" id="btnThirtySix" class="buttonStyleThree" style="display:none;">Oh, its just Terrance</button>
+
+<button onclick="switchJewKyu()" id="btnThirtySeven" class="buttonStyleThree" style="display:none;">You found Jake?</button>
+
+<button onclick="switchOne()" id="btnThirtyEight" class="buttonStyleTerTwoTalk" style="display:none;">I found his dead body!</button>
+
+<button onclick="switchTwo()" id="btnThirtyNine" class="buttonStyleThree" style="display:none;">What?!</button>
+
+<button onclick="switchThree()" id="btnForty" class="buttonStyleTerTwoTalk" style="display:none;">He was in the last stall of the boy's bathroom. I’m scared. What do we do?! What if I'm next?!</button>
+
+<button onclick="()" id="btnFortyOne" class="buttonStyleThree" style="display:none;">Calm down, we'll get to the bottom of this. I’ll meet you there!</button>
+
+<button onclick="switchFour()" id="btnFortyTwo" class="buttonStyleEliFade" style="display:none;">What happened?!</button>
+
+<button onclick="switchFive()" id="btnFortyThree" class="buttonStyleThree" style="display:none;">I don’t know how but Jake is dead?! How could this happen?!</button>
+
+<button onclick="()" id="btnFortyFour" class="buttonStyleEli" style="display:none;">You should go look for Terrance. I'll make sure that Jules is okay!</button>
+
+<button onclick="lookingTerrance()" id="btnFortyFive" class="buttonStyleChoiceTwo" style="display:none;">Look for Terrance</button>
+
+<button onclick="switchFiveChoiceTwo()" id="btnFortySix" class="buttonStyleChoiceTwo" style="display:none;">Stay with Eli</button>
+
+<button onclick="switchSix()" id="btnFortySeven" class="buttonStyleThreeFade" style="display:none;">I’m kind of scared. I'm gonna stay with you!</button>
+
+<button onclick="switchSeven()" id="btnFortyEight" class="buttonStyleEli" style="display:none;">That’s fine we shouldn't split up anyways! Have you called the police yet?</button>
+
+<button onclick="switchEight()" id="btnFortyNine" class="buttonStyleThree" style="display:none;">We’re in the middle of the ocean. There’s no service. This was supposed to be a no-phone vacation and now look at what happened!</button>
+
+<button onclick="switchNine()" id="btnFifty" class="buttonStyleEli" style="display:none;">I’m pretty sure in the crew deck there’s a button that will send signals to the nearest dock!</button>
+
+<button onclick="switchTen()" id="btnFiftyOne" class="buttonStyleThree" style="display:none;">Really! That’s relieving. But Eli...The killer is on the ship with us.</button>
+
+<button onclick="switchEleven()" id="btnFiftyTwo" class="buttonStyleEli" style="display:none;">What do you mean?</button>
+
+<button onclick="switchTwelve()" id="btnFiftyThree" class="buttonStyleThree" style="display:none;">What do I mean?! The only people that were initially on the ship are me, you, Olivia, Jules, Terrance, Creece, and Jake. Now that I think about it...I haven’t even seen Creece!</button>
+
+<button onclick="switchThirteen()" id="btnFiftyFour" class="buttonStyleThree" style="display:none;">The reality is, there’s a killer among us, and we don’t know who it is...<button>
+
+<button onclick="switchFourteen()" id="btnFiftyFive" class="buttonStyleEliFade" style="display:none;">I really think you should go find Terrance then, he’s alone. I'll check on Jules!</button>
+
+<button onclick="switchFifthteen()" id="btnFiftySix" class="buttonStyleThree" style="display:none;">Hm...<button>
+
+<button onclick="switchSixteen()" id="btnFiftySeven" class="buttonStyleEli" style="display:none;">It’s so hot in here!</button>
+
+<button onclick="()" id="btnFiftyEight" class="buttonStyleThreeThoughts" style="display:none;">If it wasn’t Jake...Then it has to either be Terrance, Creece, Jules, or Eli...<button>
+
+<button onclick="switchSixteenChoiceOne()" id="btnFiftyNine" class="buttonStyleChoiceTwo" style="display:none;">Question Eli</button>
+
+<button onclick="()" id="btnSixty" class="buttonStyleChoiceTwo" style="display:none;">Find Terrance</button>
+
+<button onclick="switchSeventeen()" id="btnSixtyOne" class="buttonStyleThree" style="display:none;">Hey Eli, did you help with the decorations last night? For Jules' surprise party?<button>
+
+<button onclick="switchEighteen()" id="btnSixtyTwo" class="buttonStyleEli" style="display:none;">No, I left all that planning to Creece! Too much work. I was with Terrance all night!</button>
+
+<button onclick="switchNineteen()" id="btnSixtyThree" class="buttonStyleThree" style="display:none;">But Jules said that...Jules said that she was with Terrance all night...<button>
+
+<button onclick="switchTwenty()" id="btnSixtyFour" class="buttonStyleEli" style="display:none;">No...Jules was hanging out with Olivia. What are you talking about?</button>
+
+<button onclick="switchTwentyOne()" id="btnSixtyFive" class="buttonStyleThreeThoughts" style="display:none;">But Jules said that Jake was with Olivia last night helping him with the surprise...<button>
+
+<button onclick="switchTwentyTwo()" id="btnSixtySix" class="buttonStyleThreeThoughts" style="display:none;">Wait is that a blood stain?!<button>
+
+<button onclick="()" id="btnSixtySeven" class="buttonStyleThreeFade" style="display:none;">Eli...<button>
+
+<button onclick="switchTwentyOneChoiceOne()" id="btnSixtyEight" class="buttonStyleChoiceTwo" style="display:none;">Ask Eli about blood stain</button>
+  
+<button onclick="()" id="btnSixtyNine" class="buttonStyleChoiceTwo" style="display:none;">Run</button>
+
+<button onclick="()" id="btnSeventy" class="buttonStyleChoiceTwo" style="display:none;">Find Terrance</button>
+
+<button onclick="switchTwentyThree()" id="btnSeventyOne" class="buttonStyleThree" style="display:none;">Eli... What is that stain on your sweater?<button>
+
+<button onclick="switchTwentyFour()" id="btnSeventyTwo" class="buttonStyleEli" style="display:none;">Oh this? Just fruit punch! Spilled it on myself during late dinner last night. Wait...</button>
+
+<button onclick="()" id="btnSeventyThree" class="buttonStyleEli" style="display:none;">Don't tell me that you're actually suspicious of me?!</button>
+
+<button onclick="switchTwentyFive()" id="btnSeventyFour" class="buttonStyleChoiceTwo" style="display:none;">I'm not</button>
+
+<button onclick="switchTwentySix()" id="btnSeventyFive" class="buttonStyleChoiceTwo" style="display:none;">I am</button>
+
+<button onclick="switchTwentySeven()" id="btnSeventySix" class="buttonStyleThree" style="display:none;">It's just that your story just doesn't add up to Jules...<button>
+
+<button onclick="switchTwentyEight()" id="btnSeventySeven" class="buttonStyleEli" style="display:none;">I just don't understand...Wow, my own friend...Putting the title of murdering on my shoulders?!</button>
+
+<button onclick="switchTwentyNine()" id="btnSeventyEight" class="buttonStyleEli" style="display:none;">Wow...</button>
+  
+<button onclick="switchThirty()" id="btnSeventyNine" class="buttonStyleEliFade" style="display:none;">You have a really good eye.<button>
+
+<button style="display:none;" class="endTitleHolder" id="endTitle">Game Over</button>
+  
+<a href="/index.html"><button style="display:none;" id="endButton" class="endPageButton">Start Over </button></a>
+
+
+
+<img style="display:none" id="flickeringHallway" class="imageStyle" src="/Images/flickering Hallway.png">
+<img style="display:none" id="jakesBedroom" class="imageStyle" src="/Images/jakesBedroom.jpeg">
+<img style="display:none" id="jakesJournal" class="imageStyle" src="/Images/jakesJournal.jpeg">
+<img style="display:none" id="jakesJournalWords" class="imageStyle" src="/Images/jakesJournalWords.jpeg">
+<img style="display:none" id="jakesOpenJournal" class="imageStyle" src="/Images/jakesOpenJournal.jpeg">
+<img style="display:none" id="closedSuitcase" class="imageStyle" src="/Images/suitcaseClosed.jpeg">
+<img style="display:none" id="openSuitcase" class="imageStyle" src="/Images/suitcaseOpen.jpeg">
+<img style="display:none" id="jakesBedFar" class="imageStyle" src="/Images/jakesBedSearchOne.jpeg">
+<img style="display:none" id="jakesBedCloser" class="imageStyle" src="/Images/jakesBedSearchCloser.jpeg">
+<img style="display:none" id="jakeBathroomFlicker" class="imageStyle" src="/Images/jakeBathroomFlicker.png">
+<img style="display:none" id="jakeBathroomCloser" class="imageStyle" src="/Images/jakeBathroomCloser.jpeg">
+<img style="display:none" id="eliKillBathroom" class="imageStyle" src="/Images/eliKillBathroom.png">
+<img style="display:none" id="terranceRunning" class="imageStyle" src="/Images/terranceRunning.jpeg">
+<img style="display:none" id="terranceTripped" class="imageStyle" src="/Images/terranceTripped.jpeg">
+<img style="display:none" id="sunset" class="imageStyle" src="/Images/sunset.png">
+<img style="display:none" id="boatLifeBoat" class="imageStyle" src="/Images/boatLifeBoat.jpeg">
+<img style="display:none" id="outsideChoice" class="imageStyle" src="/Images/outsideChoice.jpeg">
+<img style="display:none" id="youTripped" class="imageStyle" src="/Images/youTripped.jpeg">
+<img style="display:none" id="jakesDrawers" class="imageStyle" src="/Images/jakesDrawers.jpeg">
+<img style="display:none" class="imageStyle" src="/Images/theButton.png">
+
+  
+<button onclick="()" id="" class="buttonStyleEli" style="display:none;">Yeah! After you're dead, Jules is next so it doesn't matter!</button>
+
+<button onclick="plotSwitchOne()" id="elevenBtn" class="buttonStyleTwoAbs" style="display:none;">He has to be somewhere around here. I can’t believe Jake would do this!</button>
+
+<button onclick="plotSwitchTwo()" id="twelveBtn" class="buttonStyleChoiceThree" style="display:none">Check Jakes room</button>
+
+<button onclick="plotSwitchThree()" id="thirteenBtn" class="buttonStyleChoiceThree" style="display:none">Check the bathroom</button>
+
+  
+
+<button onclick="plotSwitchFour()" id="fourteenBtn" class="buttonStyleTwoAbs" style="display:none;">Hm...Jake is nowhere to be seen...That’s a bummer.</button>
+
+<button onclick="plotSwitchFive()" id="fifthteenBtn" class="buttonStyleChoiceThree" style="display:none">Search his room</button>
+
+<button onclick="plotSwitchSix()" id="sixteenBtn" class="buttonStyleChoiceThree" style="display:none">Check the bathroom</button>
+
+  
+<button onclick="plotSwitchSeven()" id="seventeenBtn" class="buttonStyleChoiceTwoHalf" style="display:none">Check his suitcase</button>
+
+<button onclick="plotSwitchEight()" id="eighteenBtn" class="buttonStyleChoiceTwoHalf" style="display:none">Check his drawers</button>
+
+<button onclick="plotSwitchNine()" id="nineteenBtn" class="buttonStyleChoiceTwoHalf" style="display:none">Check his bed</button>
+
+<button onclick="plotSwitchTen()" id="twentyBtn" class="buttonStyleChoiceTwoHalf" style="display:none">Leave and go to the Bathroom</button>
+
+<button onclick="plotSwitchEleven()" id="twentyOneBtn" class="buttonStyleTwoAbs" style="display:none;">A journal? Looks like he’s written in it recently too!</button>
+
+<button onclick="plotSwitchTwelve()" id="twentyTwoBtn" class="buttonStyleChoiceThree" style="display:none">Respect his privacy</button>
+
+<button onclick="plotSwitchThirteen()" id="twentyThreeBtn" class="buttonStyleChoiceThree" style="display:none">Check the journal</button>
+
+<button onclick="()" id="twentyFourOver" class="buttonStyleTwoAbs" style="display:none;">  What does he mean by that? A mistake? It's probably a coincidence...</button>
+
+
+<button onclick="jakesBedroomOptions()" id="twentyFourBtn" class="buttonStyleChoiceThreeExit" style="display:none">Exit</button>
+
+<button onclick="()" id="twentyFiveBtn" class="buttonStyleTwoAbs" style="display:none;">Let’s check out his drawers!</button>
+
+<button onclick="()" id="twentySevenBtn" class="buttonStyleTwoAbs" style="display:none;">Just clothes on top of clothes.</button>
+  
+<button onclick="jakesDrawersBedroomOptions()" id="twentySixBtn" class="buttonStyleChoiceThreeExit" style="display:none">Exit</button>
+
+<button onclick="bedroomOne()" id="twentyEightBtn" class="buttonStyleTwoAbsz" style="display:none;">Hmm...What to find...</button>
+
+<button onclick="bedroomTwo()" id="twentyNineBtn" class="buttonStyleThreeFade" style="display:none;">Wait a minute...</button>
+
+<button onclick="bedroomThree()" id="thirtyBtn" class="buttonStyleTwoAbsz" style="display:none;">These are the same bottoms Olivia was wearing at the beach the other day! It couldn’t be...</button>
+
+<button onclick="bedroomFour()" id="thirtyOneBtn" class="buttonStyleTwoAbsz" style="display:none;">Jake and Olivia are having an affair behind Jules's back?!</button>
+
+<button onclick="bedroomFive()" id="thirtyTwoBtn" class="buttonStyleTwoAbsz" style="display:none;">What if this made Jules spike? Was this a revenge plot by Jules all along?</button>
+
+<button onclick="jakesBedBedroomOptions()" id="thirtyThreeBtn" class="buttonStyleChoiceThreeExit" style="display:none">Exit</button>
+
+<button onclick="plotSwitchFourteen()" id="thirtyFourBtn" class="buttonStyleTwoAbsz" style="display:none;">Oh my god! Jake?! </button>
+
+<button onclick="plotSwitchFifthteen()" id="thirtyFiveBtn" class="buttonStyleTwoAbsz" style="display:none;">Wait... Terrance?! Are you here? Look, he's breathing! I think he's still alive!</button>
+
+<button onclick="plotSwitchSixteen()" id="thirtySixBtn" class="buttonStyleTwoAbsz" style="display:none;">Jake! What happened? Who did this?!</button>
+
+<button onclick="plotSwitchSeventeen()" id="thirtySevenBtn" class="buttonStyleTwoAbszJakeSlow" style="display:none;">Lea-</button>
+
+<button onclick="plotSwitchEighteen()" id="thirtyEightBtn" class="buttonStyleTwoAbsz" style="display:none;">What?!</button>
+  
+<button onclick="plotSwitchNineteen()" id="thirtyNineBtn" class="buttonStyleTwoAbszJakeSlow" style="display:none;">Leav-</button>
+
+<button onclick="plotSwitchTwenty()" id="fortyBtn" class="buttonStyleTwoAbsz" style="display:none;">Huh?!</button>
+
+<button onclick="plotSwitchTwentyOne()" id="fortyOneBtn" class="buttonStyleTwoAbszJakeSlow" style="display:none;">Be-</button>
+
+<button onclick="plotSwitchTwentyTwo()" id="fortyTwoBtn" class="buttonStyleTwoAbsz" style="display:none;">Jake speak louder we can't hear you!</button>
+
+<button onclick="plotSwitchTwentyThree()" id="fortyThreeBtn" class="buttonStyleTwoAbszJake" style="display:none;">BEHIND YOU!</button>
+
+<button onclick="()" id="fortyFourBtn" class="buttonStyleTwoAbs" style="display:none;">Make a decision!</button>
+
+<button onclick="plotSwitchTwentyFive()" id="fortyFiveBtn" class="buttonStyleChoiceThree" style="display:none">Carry Jake and run!</button>
+
+<button onclick="plotSwitchTwentyFive()" id="fortySixBtn" class="buttonStyleChoiceThree" style="display:none">Leave Jake</button>
+
+<button onclick="()" id="fortySevenBtn" class="buttonStyleTwoAbs" style="display:none;">If I don't push Terrance, I might not make it!</button>
+
+<button onclick="plotSwitchTwentySeven()" id="fortyEightBtn" class="buttonStyleChoiceThree" style="display:none">Push Terrance out of the way!</button>
+
+<button onclick="plotSwitchTwentyEight()" id="fortyNineBtn" class="buttonStyleChoiceThree" style="display:none">Keep running!</button>
+
+<button onclick="plotSwitchTwentyNine()" id="fiftyBtn" class="buttonStyleTwoAbsz" style="display:none;">I can't believe I tripped on Terrance's body, No!</button>
+
+<button onclick="plotSwitchThirty()" id="fiftyOneBtn" class="buttonStyleTwoAbsz" style="display:none;">Yes it worke-!</button>
+
+<button style="display:none;" class="endTitleHolder" id="endTitleTwo">You Made It!</button>
+  
+
+

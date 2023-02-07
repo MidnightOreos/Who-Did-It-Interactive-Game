@@ -1,0 +1,931 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+@font-face{
+  font-family:exquisite;
+  src:url("/Fonts/Exquisite\ Corpse.ttf");
+}
+
+@font-face{
+  font-family:vampire;
+  src:url("/Fonts/VampireKingDemoRegular.ttf");
+}
+
+@font-face{
+  font-family:maneater;
+  src:url("/Fonts/maneaterbb_reg.ttf");
+}
+
+@font-face{
+  font-family:viktor;
+  src:url("/Fonts/Viktors\ Littl\ Creepy\ Horror.ttf");
+}
+
+.imageStyle{
+  width:100%;
+  margin:0px;
+  position:absolute;
+  left:0px;
+  top: 3%;
+}
+
+.buttonStyle{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyle{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyle:hover{
+  background-color: rgb(84, 84, 84, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+@keyframes fadeIn {
+  to {
+   visibility: visible;
+    opacity: 1;
+  }
+}
+
+
+.buttonStyleMain{
+  position: relative;
+  bottom:6%;
+  left:31%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleMain{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleMain:hover{
+  background-color: rgb(84, 84, 84, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleChoice{
+  position: relative;
+  top:39%;
+  left:32%;
+  margin:0px;
+  background-color: rgb(18, 17, 17, 0.6);
+  padding: 0px 20px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.8);
+  animation: fadeIn 3s forwards 3s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleChoice{
+  width:450px;
+  height:75px;
+  font-family: maneater;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleChoice:hover{
+  background-color: rgb(74, 69, 69, 0.5);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.buttonStyleChoiceTwo{
+  position: relative;
+  top:30%;
+  left:35%;
+  margin-bottom:35px;
+  background-color: rgb(18, 17, 17, 0.6);
+  padding: 0px 20px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.8);
+  animation: fadeIn 3s forwards 3s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleChoiceTwo{
+  width:450px;
+  height:75px;
+  font-family: maneater;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleChoiceTwo:hover{
+  background-color: rgb(74, 69, 69, 0.5);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.buttonStyleChoiceTwoHalf{
+  position: relative;
+  top:18%;
+  left:35%;
+  margin-bottom:35px;
+  background-color: rgb(18, 17, 17, 0.6);
+  padding: 0px 20px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.8);
+  animation: fadeIn 1.5s forwards 1.5s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleChoiceTwoHalf{
+  width:450px;
+  height:75px;
+  font-family: maneater;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleChoiceTwoHalf:hover{
+  background-color: rgb(74, 69, 69, 0.5);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+
+
+
+.buttonStyleChoiceThree{
+  position: relative;
+  top:44%;
+  left:35%;
+  margin-bottom:35px;
+  background-color: rgb(18, 17, 17, 0.6);
+  padding: 0px 20px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.8);
+  animation: fadeIn 3s forwards 3s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleChoiceThree{
+  width:450px;
+  height:75px;
+  font-family: maneater;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleChoiceThree:hover{
+  background-color: rgb(74, 69, 69, 0.5);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+.buttonStyleChoiceThreeExit{
+  position: absolute;
+  top:5%;
+  left:68%;
+  background-color: rgb(120, 89, 89, 0.3);
+  padding: 0px 0px;
+  margin:0px 0px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.8);
+  animation: fadeIn 1s forwards 1s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleChoiceThreeExit{
+  width:185px;
+  height:55px;
+  font-family: maneater;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#e2caca;
+  text-shadow: 5px 5px 5px rgb(83, 40, 40, 0.3);
+}
+
+.buttonStyleChoiceThreeExit:hover{
+  background-color: rgb(74, 69, 69, 0.2);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#btnThree{
+  top:45%;
+  left:35%;
+}
+
+.buttonStyleTwo{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTwo{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+
+
+.buttonStyleTwoAbs{
+  position: absolute;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTwoAbs{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+.buttonStyleTwoAbsz{
+  position: absolute;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTwoAbsz{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTwoAbsz:hover{
+  background-color: rgb(84, 84, 84, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+.buttonStyleTwoAbszJake{
+  position: absolute;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(70, 95, 69, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTwoAbszJake{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTwoAbszJake:hover{
+  background-color: rgb(70, 95, 69, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+.buttonStyleTwoAbszJakeSlow{
+  position: absolute;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(70, 95, 69, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.0s;
+  animation: fadeIn 0.5s forwards 0.5s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleTwoAbszJakeSlow{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTwoAbszJakeSlow:hover{
+  background-color: rgb(70, 95, 69, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+.buttonStyleThree{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleThree{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleThree:hover{
+  background-color: rgb(84, 84, 84, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleThreeFade{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(84, 84, 84, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+  animation: fadeIn 1s forwards 1s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleThreeFade{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleThreeFade:hover{
+  background-color: rgb(84, 84, 84, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleThreeThoughts{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(23, 22, 22, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleThreeThoughts{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleThreeThoughts:hover{
+  background-color: rgb(23, 22, 22, 0.6);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+.buttonStyleEli{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(70, 81, 98, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleEli{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleEli:hover{
+  background-color: rgb(70, 81, 98, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+
+
+
+.buttonStyleMC{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(98, 100, 132, 0.5);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+  animation: fadeIn 1.5s forwards 1.5s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleMC{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleMC:hover{
+  background-color: rgb(148, 150, 173, 0.5);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleMCTwo{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(98, 100, 132, 0.5);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleMCTwo{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleMCTwo:hover{
+  background-color: rgb(148, 150, 173, 0.5);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleMCThree{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(98, 100, 132, 0.5);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleMCThree{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleMCThree:hover{
+  background-color: rgb(164, 14, 37, 0.4);
+  border-color: rgb(146, 17, 36, 0.4);
+  transform: scale(1.1);
+  transition: 1.5s;
+}
+
+.buttonStyleTer{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(125, 98, 132, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTer{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTer:hover{
+  background-color:rgb(96, 72, 101, 0.6);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+.buttonStyleTerTwo{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(125, 98, 132, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.7);
+  transition: 1.5s;
+  animation: fadeIn 0.5s forwards 0.5s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleTerTwo{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTerTwo:hover{
+  background-color:rgb(96, 72, 101, 0.6);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+.buttonStyleEli{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(70, 81, 98, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleEli{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleEli:hover{
+  background-color: rgb(70, 81, 98, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+.buttonStyleEliTwo{
+  position: relative;
+  top:30%;  
+  left:30%;
+  margin:0px;
+  background-color: rgb(70, 81, 98, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleEliTwo{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleEliTwo:hover{
+  background-color: rgb(70, 81, 98, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleEliFade{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(70, 81, 98, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.7);
+  transition: 1.5s;
+  animation: fadeIn 0.5s forwards 0.5s;
+  visibility: hidden;
+  opacity:0;
+}
+
+.buttonStyleEliFade{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleEliFade:hover{
+  background-color: rgb(70, 81, 98, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+
+#buttonNames{
+  font-size: 10px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.buttonStyleNarrator{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 0px 20px;
+  border-radius:2px;
+  box-shadow: 0px 3px 20px 11px rgb(148, 148, 148, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleNarrator{
+  width:500px;
+  height:150px;
+  font-family:lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#c2c2c2;
+
+}
+
+.buttonStyleNarrator:hover{
+  background-color: rgb(0, 0, 0, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+
+
+.buttonStyleTwoNarrator{
+  position: relative;
+  top:39%;
+  left:33%;
+  margin:0px;
+  background-color: rgb(0, 0, 0, 0.8);
+  padding: 0px 20px;
+  border-radius:2px;
+  box-shadow: 0px 1px 20px 9px rgb(148, 148, 148, 0.6);
+  transition: 1.5s;
+}
+
+.buttonStyleTwoNarrator{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#c2c2c2;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTerTwoTalk{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(125, 98, 132, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.7);
+  transition: 1.5s;
+}
+
+.buttonStyleTerTwoTalk{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleTerTwoTalk:hover{
+  background-color:rgb(96, 72, 101, 0.6);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.buttonStyleEliFadeTalk{
+  position: relative;
+  top:39%;
+  left:30%;
+  margin:0px;
+  background-color: rgb(70, 81, 98, 0.6);
+  padding: 0px 20px;
+  border-radius:25px;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.7);
+  transition: 1.5s;
+}
+
+.buttonStyleEliFadeTalk{
+  width:500px;
+  height:150px;
+  font-family: lucida console;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color:#d7d6d6;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.buttonStyleEliFadeTalk:hover{
+  background-color: rgb(70, 81, 98, 0.8);
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+.endTitleHolder{
+  color: #ebebeb;
+  text-shadow: 5px 20px 7px rgb(0, 0, 0, 0.8);
+  position: relative;
+  top:25%;
+  left:33%;
+  margin:0px;
+  padding:0px;
+  font-size: 100px;
+  background:none;
+  font-family: exquisite;
+  border:none;
+}
+
+.endPageButton{
+  position: relative;
+  top:40%;
+  left:38%;
+  margin:0px;
+  background-color: rgb(140, 140, 140, 0.2);
+  padding: 15px 100px;
+  border: none;
+  box-shadow: 5px 16px 15px rgb(0, 0, 0, 0.6);
+}
+
+.endPageButton{
+  font-family: viktor;
+  font-size: 25px;
+  font-stretch: 3px;
+  color: #d1cccc;
+  letter-spacing: 2px;
+}
+
+.endPageButton:hover{
+  position: relative;
+  top:40%;
+  left:38%;
+  padding: 15px 100px;
+  background-color: rgb(255, 255, 255, 0.2);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
