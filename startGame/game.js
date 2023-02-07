@@ -715,6 +715,9 @@ function plotSwitchTwentyEight(){
   document.getElementById("fortyFourBtn").style.display="none";
   document.getElementById("fortyThreeBtn").style.display="none";
   document.getElementById("fortyTwoBtn").style.display="none";
+  document.getElementById("fortyEightBtn").style.display="none";
+  document.getElementById("fortyNineBtn").style.display="none";
+  document.getElementById("fortySevenBtn").style.display="none";
   document.getElementById("boatLifeBoat").style.display="block";
   document.getElementById("endTitleTwo").style.display="block";
   setTimeout(function() { document.getElementById("endButton").style.cssText="display:block;";}, 1500);
